@@ -10,13 +10,13 @@
 void fizzBizz(int start, int end)
 {
     printf("\nFizzBizz::START: %d, %d\n", start, end);
-    for (int x=star; x<=end; x++){
-        if (x%3==0 and x%5==0){
+    for (int x=start; x<=end; x++){
+        if ((x%3==0) && (x%5==0)){
             printf("FizzBizz\n");
-        }elif (x%5==0){
+        }else if (x%5==0){
             printf("Bizz\n");
-        }elif (x%3==0){
-            printf("Fizz\n);
+        }else if (x%3==0){
+            printf("Fizz\n");
         }else{
             printf("%d\n",x);
         }
