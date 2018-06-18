@@ -10,9 +10,18 @@
 void fizzBizz(int start, int end)
 {
     printf("\nFizzBizz::START: %d, %d\n", start, end);
-    
-    // TODO: Your code here!
-    // Ex.: printf("Fizz\n");
+    for (int x=star; x<=end; x++){
+        if (x%3==0 and x%5==0){
+            printf("FizzBizz\n");
+        }elif (x%5==0){
+            printf("Bizz\n");
+        }elif (x%3==0){
+            printf("Fizz\n);
+        }else{
+            printf("%d\n",x);
+        }
+   }
+
     
     printf("\nFizzBizz::END\n");
 }
