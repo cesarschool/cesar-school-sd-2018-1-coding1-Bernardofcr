@@ -24,7 +24,6 @@ bool isPalindrome (char sentence[], int length) {
             printf('false');
         }
 
-    // TODO: YOUR CODE HERE!
     
     printf("\nisPalindrome::END\n");
     return false;
