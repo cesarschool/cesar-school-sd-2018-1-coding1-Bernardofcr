@@ -13,15 +13,15 @@
 
 bool isPalindrome (char sentence[], int length) {
     printf("\nisPalindrome::START: %s, %d\n", sentence, length);
-    int confere=0
+    int confere=0;
     for (int x=0;x<lenght;x++){
         if (sentence[x]==setense[-1-x]){
-            confere=confere+1
+            confere=confere+1;
         }
         if (confere==length){
-            printf("true")
+            printf("true");
         }else{
-            printf('false')
+            printf('false');
         }
 
     // TODO: YOUR CODE HERE!
